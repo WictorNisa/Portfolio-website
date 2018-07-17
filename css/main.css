@@ -1,0 +1,204 @@
+body{
+  font-family: 'Noto Serif', serif;
+
+
+}
+/**** GRID ****/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+
+}
+/**** HEADER ****/
+
+header{
+  height: 850px;
+  background: url('../img/hero3.png');
+  background-size: cover;
+
+
+}
+
+header h1{
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  padding-top: 100px;
+  margin-top: 0;
+}
+
+header span{
+  color:#a79a56;
+}
+
+header h2{
+  font-size: 40px;
+  padding: 20px 250px 0 250px;
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+
+}
+
+
+
+
+/**** WORK ****/
+
+#work{
+  height: 1000px;
+
+}
+
+#work h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+#work img{
+  padding-top: 60px;
+
+}
+
+#work h3{
+  color: #a79a56;
+  font-size: 24px;
+  text-align: left;
+  padding-top: 35px;
+  font-weight: bold;
+
+}
+
+#work h4{
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+#work p{
+  line-height: 22px;
+  padding-right: 40px;
+  font-weight: lighter;
+
+}
+
+#work .half-width #box{
+  padding-top: 90px;
+
+}
+
+
+
+/**** ABOUT ****/
+
+#about{
+  height: 650px;
+  background: #C9CEBD;
+
+}
+
+#about h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#about img{
+  border: 2px solid #838E83;
+
+}
+
+#about h3{
+  font-size: 24px;
+}
+
+#about p{
+  padding-top: 20px;
+  line-height: 26px;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+#about #lower{
+  padding-top: 40px;
+}
+
+#about span{
+  font-style:italic;
+  font-weight: lighter;
+  color: #a79a56;
+
+
+}
+
+/**** CONTACT ****/
+
+#contact{
+  height: 400px;
+  background: #838E83;
+}
+
+#contact h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+#contact h3{
+  padding-left: 185px;
+  font-size: 24px;
+}
+
+#contact p{
+  font-size: 22px;
+  padding-left: 110px;
+  padding-top: 5px;
+}
+
+#contact li{
+  padding-top: 20px;
+  display: inline-block;
+  padding-left: 60px;
+
+}
+
+#contact #right-box h3{
+  padding-left: 200px;
+
+}
+
+#contact #right-box #right-text{
+  padding-left: 175px;
+}
+
+
+/**** FOOTER *****/
+
+footer h3{
+  text-align: center;
+  font-weight: lighter;
+}
+
+footer span{
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+  color: #a79a56;
+
+}
